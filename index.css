@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+/* :root {
+    --primary-dark: #4338CA;
+    --white: white;
+} */
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    /* background-color: var(--primary-dark); */
+    color: var(--white);
+   
+    margin: auto;
+}
+
+.heading-fun {
+    text-align: center;
+    margin: 1rem 1rem;
+}
+.heading-fun:hover {
+   color: white;
+}
+
+.nav-menu{
+    list-style-type: none;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 0.5rem;
+    
+}
+
+.link2{
+    display: inline;
+    text-decoration: none;
+    margin: 0.5rem;
+    padding: 0.5rem;
+    text-align: center;
+    display: inline;
+    color: white;
+}
+
+.link-main{
+   
+    text-decoration: none;
+    
+
+  
+    color: white;
+}
+
+
+.navigation{
+    background-color: #191F42;
+    padding: 0.25rem;
+}
+
+.link2:hover{
+    background-color:#666c8d;
+    font-weight: bold;
+}
+
+
+
+
+/**Footer**/
+.footer {
+    margin-top: 50px;
+    background-color: #191F42;
+    color: white;
+    padding: 0.75rem 1rem;
+    text-align: center;    
+   margin-left: 0;
+   margin-right: 0;
+}
+
+.footer .link {
+    color: white;
+}
+
+.footer ul {
+    padding-inline-start: 0px;
+}
+
+.footer-header {
+    font-weight: bold;
+    font-size: large;
+}
+
+.icon-social {
+    font-size: 24px;
+
+}
+
+.footer-list li {
+    display: inline;
+    margin: 0 0.5rem;
+}
+
+/**lists**/
+.list-non-bullets {
+    list-style: none;
+}
+
+.list-item-inline {
+    display: inline;
+    padding-right: 0rem 0.5rem;
+}
+
+.link {
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+
+.social:hover {
+    color: #4338CA;
+}
+
+.formula{
+    padding: 1rem;
+    border: 2px solid #191F42;
+    box-sizing: border-box;
+    margin: auto 1rem auto 1rem;
+}
+
+.formula:hover{
+
+    background-color: #191F42;
+    padding: 1rem;
+    border: 2px solid white;
+}
+
+button:hover{
+    background-color: #191F42;
+    border: 2px solid white;
+    box-sizing: border-box;
+}
+
+
+/* home page */
+
+.container-home{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 600px;
+    justify-content: center;
+    margin: auto;
+}
+
+.container-item-home{
+    padding: 1rem;
+    margin: 1rem;
+    background-color: #191F42;
+    color: white;
+    border: 2px solid white;
+    height: 100px;
+    width: 200px;
+    text-align: center;
+box-sizing: border-box;
+font-size: 1.5em;
+   
+}
+
+.container-item-home:hover{
+    background-color: #4338CA;
+    border: 2px solid #191F42;
+
+}
+
+
+.logo-image{
+    margin: auto;
+    display: block;
+    max-width: 400px
+}
