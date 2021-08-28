@@ -2,7 +2,7 @@
 
 
 ## What is this app about?
-This is a fun app created in Vanilla JS to learn about triangles in fun way. It has four sections:
+This is a fun app to learn about triangles in fun way. It has four sections:
 
 ### Angles of Triangle: To check if user input angles form a triangle.
 
