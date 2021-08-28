@@ -2,7 +2,7 @@ const questionList = document.querySelector('.form-container');
 const submitButton = document.querySelector('#submit-button');
 const outputBox = document.querySelector('.output-box');
 
-const correctAnswers = ['90°', 'right angled', 'right angled', 'right angled', 'right angled'];
+const correctAnswers = ['90°', 'right angled', 'IsoscelesTriangle', 'AcuteTriangle', 'Perimeter', 'Hypotenuse', 'True', '180', '5', 'ObtuseTriangle'];
 
 function calculateScore(e) {
 	e.preventDefault();
