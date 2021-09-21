@@ -21,12 +21,18 @@ function calculateArea() {
 	console.log(AreaOfTriangle);
     
 
-	outputBox.innerText = `The area of the triangle is   ${AreaOfTriangle} cm²`;
+	outputBox.innerText = `The area of the triangle is   ${toFixedIfNecessary(AreaOfTriangle,2)} cm²`;
 
     if(AreaOfTriangle&&BaseInputA&&heightInputB)
     compareVlues(AreaOfTriangle.value, BaseInputA.value, heightInputB.value);
     else
     outputBox.innerText="Please Enter all fields!"
 }
+
+
+function toFixedIfNecessary( value, points ){
+	return +parseFloat(value).toFixed( points );
+  }
+
 
 checkButton.addEventListener('click', calculateArea);

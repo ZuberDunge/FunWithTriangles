@@ -22,12 +22,19 @@ function calculateHypotenuse() {
     
 	const lengthOfHypotenuse = Math.sqrt(sumOfSquares);
 	console.log(lengthOfHypotenuse);
-	outputBox.innerText = `The length of the hypotenuse is ${lengthOfHypotenuse} cm`;
+	outputBox.innerText = `The length of the hypotenuse is ${toFixedIfNecessary(lengthOfHypotenuse, 2)} cm`;
 
     if(sumOfSquares&&sideInputAA&&sideInputBB)
     compareVlues(sumOfSquares.value, sideInputA.value, sideInputB.value);
     else
     outputBox.innerText="Please Enter all fields!"
 }
+
+
+function toFixedIfNecessary( value, points ){
+	return +parseFloat(value).toFixed( points );
+  }
+  
+
 
 checkButton.addEventListener('click', calculateHypotenuse);

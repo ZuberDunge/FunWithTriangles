@@ -15,6 +15,11 @@ function calculateSum() {
 }
 
 function checkTriangle() {
+
+if(Number(inputAngles[0].value)>0 && Number(inputAngles[1].value)>0 && Number(inputAngles[2].value)>0){
+
+
+
 	if (calculateSum() === 180) {
 		console.log('Yayy, the angles form a triangle');
 		outputBox.innerText = 'Yayy, the angles form a triangle';
@@ -22,5 +27,13 @@ function checkTriangle() {
 		console.log('Oh Oh!, the angles do not form a triangle');
 		outputBox.innerText = 'Oh Oh!, the angles do not form a triangle';
 	}
+}else{
+
+	outputBox.innerText = 'Enter Valid Angles!';
+
+}
+
+
+
 }
 checkButton.addEventListener('click', checkTriangle);
